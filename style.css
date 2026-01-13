@@ -13,6 +13,8 @@ body{
     color: #001931;
 }
 
+
+/* nav bar  */
 nav{
     display: flex ;
     justify-content: space-between;
@@ -42,7 +44,7 @@ nav .navMenu ul a{
 }
 
 
-
+/* Button & hover  */
 .btn-nav, .btn{
     font-size: 16px;
     font-weight: 600;
@@ -61,6 +63,8 @@ nav .navMenu ul a{
     cursor: pointer;
 }
 
+
+/* Hero Section  */
 .hero-banner{
    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(./assets/hero-bg.png);
    background-size: cover;
@@ -147,6 +151,11 @@ nav .navMenu ul a{
     display: inline-block;
     margin-left: 8px;
 }
+
+
+
+/* Sections */
+
 .section-heading{
     margin-bottom: 32px;
 }
@@ -263,7 +272,7 @@ nav .navMenu ul a{
 }
 
 
-
+/* Footer Section  */
 footer{
     padding-top: 120px;
     color: #fdfdfd;
