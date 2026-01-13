@@ -59,14 +59,13 @@ nav .navMenu ul a{
 .btn:hover,btn:active{
     background-color: #fdfdfd;
     color: #30B868;
-    font-size: 20px;
     cursor: pointer;
 }
 
 
 /* Hero Section  */
 .hero-banner{
-   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(./assets/hero-bg.png);
+   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./assets/hero-bg.png);
    background-size: cover;
    height: 70vh;
 
@@ -79,7 +78,7 @@ nav .navMenu ul a{
 }
 
 .container{
-    width: 78%;
+    width: 80%;
     max-width: 1360px;
     margin: 0 auto;
 }
