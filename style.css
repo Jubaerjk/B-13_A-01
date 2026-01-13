@@ -41,6 +41,8 @@ nav .navMenu ul a{
     text-align: center;
 }
 
+
+
 .btn-nav, .btn{
     font-size: 16px;
     font-weight: 600;
@@ -50,6 +52,13 @@ nav .navMenu ul a{
 
     background-color: #30B868;
     color: white;
+}
+
+.btn:hover,btn:active{
+    background-color: #fdfdfd;
+    color: #30B868;
+    font-size: 20px;
+    cursor: pointer;
 }
 
 .hero-banner{
@@ -276,17 +285,31 @@ footer{
     font-weight: 500;
     margin-bottom: 4px;
 }
-.social-icons button{
-    background-color: white;
-    border: none;
-
-    color: #001930;
-    padding: 4px;
-    border-radius: 50%;
-
-    display: inline-block;
+.social-icons{
+    display: flex;
+    gap: 8px;
+    justify-content: center;
 }
 
+.social-icons button{
+
+    background-color: white;
+    border: none;
+    
+    color: #001930;
+    padding: 2px;
+    border-radius: 50%;
+    
+   
+}
+
+.social-icons button:hover{
+    scale: 1.5;
+    padding: 2px;
+    background-color: #30B868;
+    color: #fff;
+
+}
 
 footer p{
     color: #627382;
